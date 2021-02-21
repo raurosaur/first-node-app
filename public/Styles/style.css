@@ -1,0 +1,52 @@
+body {
+  background-color: rebeccapurple;
+  color: white;
+  font-family: arial;
+  letter-spacing: 0.1em;
+  margin: 0;
+}
+
+h1 {
+  background-color: black;
+  text-align: center;
+  margin: 0;
+  padding: 0.75em 0;
+  font-size: 4em;
+}
+
+ul {
+  background-color: rgb(95, 78, 78);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 0;
+}
+
+li {
+  margin: 0.3em;
+  list-style: none;
+  font-size: 1.5em;
+  width: 100%;
+  text-align: center;
+}
+
+li:hover{
+  background-color: rgb(60, 53, 53);
+  box-shadow: inset 0px 0px 5px 2px #fff;
+}
+
+li > a {
+  text-decoration: none;
+  color: white;
+}
+
+p {
+  line-height: 2em;
+  margin: 1em 4em;
+  text-align: justify;
+}
+
+div {
+  columns: 30em;
+  margin-top: 4em;
+}
